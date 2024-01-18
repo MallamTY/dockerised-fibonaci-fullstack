@@ -1,0 +1,17 @@
+###
+
+GET http://localhost:7000/get-products
+
+###
+
+POST http://localhost:8000/add-product
+Content-Type: application/json
+
+{
+    "product_name": "MacBook Pro",
+    "product_cost": 40000
+}
+
+###
+
+GET http://localhost:8000/table-creation
